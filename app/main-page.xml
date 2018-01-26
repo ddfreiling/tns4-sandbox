@@ -1,0 +1,17 @@
+<TabView>
+	<TabViewItem title="Tab 1">
+		<Frame
+			defaultPage="tab1">
+		</Frame>
+	</TabViewItem>
+	<TabViewItem title="Tab 2">
+		<Frame
+			defaultPage="tab2">
+		</Frame>
+	</TabViewItem>
+	<TabViewItem title="Tab 3">
+		<StackLayout class="p-20">
+			<Label text="No page here, just static content." textWrap="true" class="h2 text-center"/>
+		</StackLayout>
+	</TabViewItem>
+</TabView>
